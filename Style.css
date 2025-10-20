@@ -7,7 +7,7 @@ body {
       align-items: center;
       padding-top: 30px;
     }
-  table {
+table {
       border-collapse: collapse;
       width: 80%;
       max-width: 700px;
@@ -16,15 +16,15 @@ body {
       overflow: hidden;
       margin-bottom: 20px;
     }
-  th, td {
+th, td {
       border: 1px solid #333;
       padding: 10px;
       text-align: center;
     }
-  th {
+th {
       background: #333;
     }
-  input {
+input {
       width: 80px;
       padding: 5px;
       background: #111;
@@ -32,12 +32,12 @@ body {
       border: 1px solid #444;
       text-align: center;
     }
-  #result-box {
+#result-box {
       margin-top: 20px;
       font-size: 20px;
       font-weight: bold;
     }
-  button {
+button {
       margin-top: 10px;
       padding: 10px 20px;
       background: #0078ff;
@@ -46,6 +46,6 @@ body {
       border-radius: 6px;
       cursor: pointer;
     }
-  button:hover {
+button:hover {
       background: #005fcc;
     }
