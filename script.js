@@ -17,7 +17,7 @@ function calculate() {
     document.getElementById(item.r).innerText = percent.toFixed(2) + "%";
     totalPercent += percent;
   });
-  const term = parseFloat(document.getElementById(new).value) || 0;
+  const term = parseFloat(document.getElementById(tm).value) || 0;
   totalPercent = totalPercent/term
   document.getElementById("result-box").innerText = "Your Result: " + totalPercent.toFixed(1) + "%";
 }
