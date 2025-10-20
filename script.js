@@ -13,7 +13,7 @@ function calculate() {
     const total = parseFloat(document.getElementById(item.t).value) || 1;
     const weight = parseFloat(document.getElementById(item.w).value) || 0;
 
-    const percent = (score / total)*100 * weight;
+    const percent = (score / total) * weight;
     document.getElementById(item.r).innerText = percent.toFixed(2) + "%";
     totalPercent += percent;
   });
