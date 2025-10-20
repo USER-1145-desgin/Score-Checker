@@ -1,51 +1,57 @@
 body {
-      font-family: "Segoe UI", Arial, sans-serif;
-      background: #111;
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-top: 30px;
-    }
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
 table {
-      border-collapse: collapse;
-      width: 80%;
-      max-width: 700px;
-      background: #222;
-      border-radius: 8px;
-      overflow: hidden;
-      margin-bottom: 20px;
-    }
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 700px;
+  background: #222;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
 th, td {
-      border: 1px solid #333;
-      padding: 10px;
-      text-align: center;
-    }
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: center;
+}
+
 th {
-      background: #333;
-    }
+  background: #333;
+}
+
 input {
-      width: 80px;
-      padding: 5px;
-      background: #111;
-      color: #fff;
-      border: 1px solid #444;
-      text-align: center;
-    }
+  width: 80px;
+  padding: 5px;
+  background: #111;
+  color: #fff;
+  border: 1px solid #444;
+  text-align: center;
+}
+
 #result-box {
-      margin-top: 20px;
-      font-size: 20px;
-      font-weight: bold;
-    }
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 button {
-      margin-top: 10px;
-      padding: 10px 20px;
-      background: #0078ff;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-    }
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #0078ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
 button:hover {
-      background: #005fcc;
-    }
+  background: #005fcc;
+}
