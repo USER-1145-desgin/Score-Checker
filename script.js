@@ -17,7 +17,7 @@ function calculate() {
     document.getElementById(item.r).innerText = percent.toFixed(2) + "%";
     totalPercent =  totalPercent+percent;
   });
-  const totalWeight = parseFloat(document.getElementById("totalWeight").value) || 1;
+  const totalWeight = parseFloat(document.getElementById("totalWeight").value) || 70;
   totalPercent = totalPercent/totalWeight
   document.getElementById("result-box").innerText = "Your Result: " + totalPercent.toFixed(1) + "%";
 }
