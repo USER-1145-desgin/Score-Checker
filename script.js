@@ -18,6 +18,7 @@ function calculate() {
     totalPercent =  totalPercent+percent;
   });
   const totalWeight = parseFloat(document.getElementById("totalWeight").value) || 1;
-  totalPercent = (totalPercent/totalWeight)*100
+  totalPercent = totalPercent/totalWeight
+  totalPercent = totalPercent * 100
   document.getElementById("result-box").innerText = "Your Result: " + totalPercent.toFixed(1) + "%";
 }
