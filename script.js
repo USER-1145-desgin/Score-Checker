@@ -17,10 +17,10 @@ function calculate() {
     // ✅ weight is in %, so divide by 100
     const percent = (score / total) * (weight / 100);
     document.getElementById(item.r).innerText = (percent * 100).toFixed(2) + "%";
-    totalPercent += percent * (weight / totalWeight);
+    totalPercent += percent
   });
-
-  const finalPercent = totalPercent * 100;
+  
+  totalPercent = (totalPercent/totalWeight) * 100;
   document.getElementById("result-box").innerText =
     "Your Result: " + finalPercent.toFixed(1) + "%";
 }
