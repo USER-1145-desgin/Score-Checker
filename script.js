@@ -22,5 +22,5 @@ function calculate() {
   
   totalPercent = (totalPercent/totalWeight) * 100;
   document.getElementById("result-box").innerText =
-    "Your Result: " + finalPercent.toFixed(1) + "%";
+    "Your Result: " + totalPercent.toFixed(1) + "%";
 }
