@@ -21,5 +21,5 @@ function calculate() {
   });
   
   totalPercent = (totalPercent/totalWeight) * 100 ;
-  document.getElementById("result-box").innerText = "Your Result: " + totalPercent.toFixed(2) + "%";
+  document.getElementById("result-box").innerText = "Your Result: " + totalPercent + "%";
 }
