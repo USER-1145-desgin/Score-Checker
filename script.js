@@ -20,6 +20,7 @@ function calculate() {
     totalPercent += percent
   });
   
-  totalPercent = (totalPercent/totalWeight) * 10000 ;
+  totalPercent = (totalPercent/totalWeight) ;
+  totalPercent = totalPercent * 100
   document.getElementById("result-box").innerText = "Your Result: " + totalPercent + "%";
 }
